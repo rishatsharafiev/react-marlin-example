@@ -1,10 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Dumb = ({ shop }) => {
-  const onClickHandler = () => { window.location = shop.deep_link }
-  const onKeyPressHandler = () => { }
-
+const Dumb = ({ type, handleChange }) => {
   return (
     <div
       className='shop'
