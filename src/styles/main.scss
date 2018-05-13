@@ -1,4 +1,71 @@
 body {
-  margin: 0;
+  background: rgba(0, 102, 255, 0.38);
+  font-family: sans-serif;
+  margin: 3em;
   padding: 0;
+}
+
+.none {
+  display: none !important;
+}
+
+p {
+  margin: 0 0 5px;
+}
+
+.shop {
+  background: #fff;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+  box-shadow: 2px 2px 5px -1px rgb(0, 81, 202);
+  margin: 0 0 5px;
+  padding: 3px 5px;
+  width: 600px;
+}
+
+.shop--author {
+  color: #007ddc;
+  text-decoration: underline;
+}
+
+.shop--count {
+  display: block;
+  margin: 10px 0 0;
+}
+
+.test-input {
+  margin: 0 5px 5px 0;
+}
+
+.add {
+  border: 1px dashed rgba(0, 89, 181, 0.82);
+  margin: 0 5px 5px 0;
+  padding: 5px;
+  width: 210px;
+}
+
+.add--author,
+.add--text,
+.add--btn,
+.add--checkrule {
+  border: 1px solid rgba(0, 89, 181, 0.82);
+  display: block;
+  margin: 0 0 5px;
+  padding: 5px;
+  width: 94%;
+}
+
+.add--checkrule {
+  font-size: 12px;
+}
+
+.add--btn {
+  background: #007ddc;
+  box-sizing: content-box;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.add--btn:disabled {
+  background: #ccc;
+  color: #999;
 }
