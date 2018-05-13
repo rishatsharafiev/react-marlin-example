@@ -7,7 +7,7 @@ const Dumb = ({
 }) => (
   <div className='shops'>
     {shops.map(shop => (
-      <ShopItemDumb shop={shop} />
+      <ShopItemDumb key={shop.id} shop={shop} />
     ))}
   </div>
 )
