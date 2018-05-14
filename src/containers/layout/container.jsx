@@ -1,7 +1,10 @@
 import React from 'react'
+import ShopList from 'containers/shop/list'
 
 const Container = () => (
-  <div style={{ padding: '0.5rem' }} />
+  <div>
+    <ShopList />
+  </div>
 )
 
 export default Container
