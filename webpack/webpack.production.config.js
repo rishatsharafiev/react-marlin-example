@@ -3,6 +3,6 @@ module.exports = require('./webpack.make')({
   sourceMaps: false,
   lint: true,
   HtmlWebpackPlugin: {
-    title: 'Ревизор ⚡⚡⚡'
+    title: 'Super Hot Sales ⚡⚡⚡'
   },
 });

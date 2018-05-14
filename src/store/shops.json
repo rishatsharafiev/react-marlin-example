@@ -2,6 +2,9 @@
   "categories" : [ {
     "main_id" : "35",
     "main_title" : "Интернет-услуги"
+  },{
+    "main_id" : "36",
+    "main_title" : "Интернет-услуги 2"
   } ],
   "cpa" : "20%",
   "deep_link" : "https://sf.gdeslon.ru/cf/0a133a7bb826d0acecd01c639ab6377ccc15e248?mid=9412",

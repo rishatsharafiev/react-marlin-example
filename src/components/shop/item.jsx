@@ -13,8 +13,30 @@ const Dumb = ({ shop }) => {
       role='link'
       tabIndex='0'
     >
-      <p className='shop--text'>{shop.name}</p>
-      <div className='shop--logo' style={{ backgroundImage: `url(${shop.logo})` }} />
+      <div className='shop--logo' style={{ backgroundImage: `url(${shop.logo})` }} alt={shop.name} />
+      <div className='shop--features'>
+        <b>Характеристики</b>
+        <ul>
+          {shop.id && <li><u>shop.id:</u> {shop.id}</li> }
+          {shop.name && <li><u>shop.name:</u> {shop.name}</li> }
+          {shop.categories &&
+            <li><u>shop.categories__main_title: </u>
+              {shop.categories.map((category, index) => (
+                (shop.categories.length - 1 !== index)
+                  ? `${category.main_title}, `
+                  : category.main_title
+              ))}
+            </li>
+          }
+          {shop.cpa && <li><u>shop.cpa:</u> {shop.cpa}</li> }
+          {shop.rating && <li><u>shop.rating:</u> {shop.rating}</li> }
+          {shop.host && <li><u>shop.host:</u> {shop.host}</li> }
+          {shop.site && <li><u>shop.site:</u> {shop.site}</li> }
+          {shop.coupon_category_id &&
+            <li><u>shop.coupon_category_id:</u> {shop.coupon_category_id}</li>
+          }
+        </ul>
+      </div>
     </div>
   )
 }
