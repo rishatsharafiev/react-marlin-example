@@ -6,9 +6,13 @@ const Dumb = ({
   shops,
 }) => (
   <div className='shops'>
-    {shops.map(shop => (
-      <ShopItemDumb key={shop.id} shop={shop} />
-    ))}
+    {
+      (shops.length)
+      ? shops.map(shop => (
+        <ShopItemDumb key={shop.id} shop={shop} />
+      ))
+      : <div>Ничего не найдено</div>
+    }
   </div>
 )
 

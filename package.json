@@ -14,7 +14,6 @@
     "install-deps:webpack": "cd webpack && (yarn install --no-progress || yarn install --no-progress)"
   },
   "dependencies": {
-    "lodash": "^4.17.5",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",

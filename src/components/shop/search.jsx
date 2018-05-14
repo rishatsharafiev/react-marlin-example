@@ -1,15 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Dumb = ({ types, handleChange, selectedValue }) => (
+const Dumb = ({
+  types, handleInputChange, handleSelectChange, selectedValue,
+}) => (
   <div className='search'>
-    <input className='search--input' type='text' placeholder='Поиск' onChange={handleChange} />
-    <select className='search--select'>
-      { selectedValue && selectedValue &&
-        <option key={selectedValue}>{selectedValue}</option>
-      }
+    <input className='search--input' type='text' placeholder='Поиск' onChange={handleInputChange} />
+    <select className='search--select' value={selectedValue} onChange={handleSelectChange}>
       {types.map(type => (
-        (type !== selectedValue) && <option key={type}>{type}</option>
+        <option key={type} value={type}>{type}</option>
       ))}
     </select>
   </div>
@@ -17,7 +16,8 @@ const Dumb = ({ types, handleChange, selectedValue }) => (
 
 Dumb.propTypes = {
   types: PropTypes.array.isRequired,
-  handleChange: PropTypes.func.isRequired,
+  handleInputChange: PropTypes.func.isRequired,
+  handleSelectChange: PropTypes.func.isRequired,
   selectedValue: PropTypes.string,
 }
 

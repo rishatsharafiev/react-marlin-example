@@ -12,7 +12,7 @@
   "id" : "gdeslon_9412",
   "logo" : "https://firebasestorage.googleapis.com/v0/b/qpon-live.appspot.com/o/offers%2Flpgenerator.ru.png?alt=media&token=c624af30-01a7-4176-8d08-628322c55fe3",
   "name" : "lpgenerator.ru",
-  "rating" : "",
+  "rating" : "4",
   "site" : "http://lpgenerator.ru/"
 }, {
   "categories" : [ {
@@ -25,7 +25,7 @@
   "id" : "gdeslon_11751",
   "logo" : "https://firebasestorage.googleapis.com/v0/b/qpon-live.appspot.com/o/offers%2Faviasales.ru.png?alt=media&token=c624af30-01a7-4176-8d08-628322c55fe3",
   "name" : "aviasales.ru",
-  "rating" : "",
+  "rating" : "4",
   "site" : "http://aviasales.ru/"
 }, {
   "categories" : [ {
@@ -89,7 +89,7 @@
   "id" : "gdeslon_20129",
   "logo" : "https://firebasestorage.googleapis.com/v0/b/qpon-live.appspot.com/o/offers%2Fshop.fc-zenit.ru.png?alt=media&token=c624af30-01a7-4176-8d08-628322c55fe3",
   "name" : "shop.fc-zenit.ru",
-  "rating" : "",
+  "rating" : "5",
   "site" : "http://www.shop.fc-zenit.ru/"
 }, {
   "categories" : [ {
@@ -107,7 +107,7 @@
   "id" : "gdeslon_21101",
   "logo" : "https://firebasestorage.googleapis.com/v0/b/qpon-live.appspot.com/o/offers%2Fforoffice.ru.png?alt=media&token=c624af30-01a7-4176-8d08-628322c55fe3",
   "name" : "foroffice.ru",
-  "rating" : "",
+  "rating" : "3",
   "site" : "http://foroffice.ru"
 }, {
   "categories" : [ {
@@ -120,7 +120,7 @@
   "id" : "gdeslon_21789",
   "logo" : "https://firebasestorage.googleapis.com/v0/b/qpon-live.appspot.com/o/offers%2Ffxclub.org.png?alt=media&token=c624af30-01a7-4176-8d08-628322c55fe3",
   "name" : "fxclub.org",
-  "rating" : "",
+  "rating" : "3",
   "site" : "http://www.fxclub.org/"
 }, {
   "categories" : [ {
@@ -162,7 +162,7 @@
   "id" : "gdeslon_27813",
   "logo" : "https://firebasestorage.googleapis.com/v0/b/qpon-live.appspot.com/o/offers%2Fboffo.ru.png?alt=media&token=c624af30-01a7-4176-8d08-628322c55fe3",
   "name" : "boffo.ru",
-  "rating" : "",
+  "rating" : "2",
   "site" : "http://www.boffo.ru"
 }, {
   "categories" : [ {
@@ -188,7 +188,7 @@
   "id" : "gdeslon_32409",
   "logo" : "https://firebasestorage.googleapis.com/v0/b/qpon-live.appspot.com/o/offers%2Fprintclick.ru.png?alt=media&token=c624af30-01a7-4176-8d08-628322c55fe3",
   "name" : "printclick.ru",
-  "rating" : "",
+  "rating" : "1",
   "site" : "http://www.printclick.ru/"
 }, {
   "categories" : [ {
@@ -201,7 +201,7 @@
   "id" : "gdeslon_36667",
   "logo" : "https://firebasestorage.googleapis.com/v0/b/qpon-live.appspot.com/o/offers%2Ffootballstore.ru.png?alt=media&token=c624af30-01a7-4176-8d08-628322c55fe3",
   "name" : "footballstore.ru",
-  "rating" : "",
+  "rating" : "2",
   "site" : "http://www.footballstore.ru"
 }, {
   "categories" : [ {
@@ -237,7 +237,7 @@
   "id" : "gdeslon_42071",
   "logo" : "https://firebasestorage.googleapis.com/v0/b/qpon-live.appspot.com/o/offers%2Flamoda.ru.png?alt=media&token=c624af30-01a7-4176-8d08-628322c55fe3",
   "name" : "lamoda.ru",
-  "rating" : "",
+  "rating" : "2",
   "site" : "http://www.lamoda.ru/"
 }, {
   "categories" : [ {
@@ -258,7 +258,7 @@
   "id" : "gdeslon_42255",
   "logo" : "https://firebasestorage.googleapis.com/v0/b/qpon-live.appspot.com/o/offers%2Fogo1.ru.png?alt=media&token=c624af30-01a7-4176-8d08-628322c55fe3",
   "name" : "ogo1.ru",
-  "rating" : "",
+  "rating" : "2",
   "site" : "http://ogo1.ru"
 }, {
   "categories" : [ {
@@ -296,7 +296,7 @@
   "id" : "gdeslon_50803",
   "logo" : "https://firebasestorage.googleapis.com/v0/b/qpon-live.appspot.com/o/offers%2Flaredoute.ru.png?alt=media&token=c624af30-01a7-4176-8d08-628322c55fe3",
   "name" : "laredoute.ru",
-  "rating" : "",
+  "rating" : "2",
   "site" : "http://www.laredoute.ru/"
 }, {
   "categories" : [ {
@@ -340,7 +340,7 @@
   "id" : "gdeslon_59531",
   "logo" : "https://firebasestorage.googleapis.com/v0/b/qpon-live.appspot.com/o/offers%2Fsammydress.com.png?alt=media&token=c624af30-01a7-4176-8d08-628322c55fe3",
   "name" : "sammydress.com",
-  "rating" : "",
+  "rating" : "2",
   "site" : "http://www.sammydress.com/"
 }, {
   "categories" : [ {

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Dumb = ({ shop }) => {
   const onClickHandler = () => { window.location = shop.deep_link }
-  const onKeyPressHandler = () => { }
+  const onKeyPressHandler = () => { window.location = shop.deep_link }
 
   return (
     <div
@@ -33,7 +33,13 @@ const Dumb = ({ shop }) => {
           {shop.host && <li><u>shop.host:</u> {shop.host}</li> }
           {shop.site && <li><u>shop.site:</u> {shop.site}</li> }
           {shop.coupon_category_id &&
-            <li><u>shop.coupon_category_id:</u> {shop.coupon_category_id}</li>
+            <li><u>shop.coupon_category_id: </u>
+              {shop.coupon_category_id.map((coupon_category, index) => (
+                (shop.coupon_category_id.length - 1 !== index)
+                  ? `${coupon_category}, `
+                  : coupon_category
+              ))}
+            </li>
           }
         </ul>
       </div>
